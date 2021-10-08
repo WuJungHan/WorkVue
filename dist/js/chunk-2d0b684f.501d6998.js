@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0b684f"],{"1e05":function(n,e,c){"use strict";c.r(e);var t=c("7a23");function u(n,e){return Object(t["w"])(),Object(t["e"])("main",null," 後台折價卷設定 ")}const o={};o.render=u;e["default"]=o}}]);
+//# sourceMappingURL=chunk-2d0b684f.501d6998.js.map

@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0e5e97"],{9703:function(t,e,n){"use strict";n.r(e);var c=n("7a23"),r={class:"container pt-5"},i=Object(c["i"])("h2",null,"404 錯誤",-1),u=Object(c["i"])("p",null,"此頁面已不存在",-1),b=Object(c["h"])("回首頁");function a(t,e){var n=Object(c["D"])("router-link");return Object(c["w"])(),Object(c["e"])("div",r,[i,u,Object(c["i"])(n,{class:"btn btn-primary",to:"/"},{default:Object(c["O"])((function(){return[b]})),_:1})])}const o={};o.render=a;e["default"]=o}}]);
+//# sourceMappingURL=chunk-2d0e5e97.7bb843af.js.map
