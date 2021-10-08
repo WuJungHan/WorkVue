@@ -1,0 +1,35 @@
+*,*:before,*:after{
+              box-sizing:border-box;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  object-fit:cover;
+  /*下block 去除底下img buttom px用*/
+  display: block;
+}
+
+a{
+  display:inline-block;
+  text-decoration: none;
+  /*&:hover{}*/
+}
+
+ul{
+  padding: 0;
+}
+
+ul,li{
+  list-style:none
+}
+
+body{
+  font-family: Microsoft JhengHei;
+  line-height: 1.5;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}

@@ -1,0 +1,27 @@
+// 新增helpers(樣式設定檔改bs5變數 檔案參考再),components(通用元件),pages(每一頁面樣式)資料夾在assets,存放各自scss,再import到all.scss
+
+// 客製化bs5 引用以下1.2.3. 最後引入4.bs5 順序請勿亂調換
+// bs5文件裡有"自定義->sass" @代表src資料夾裡 ~代表node_modules裡
+// 1.
+@import "~bootstrap/scss/functions";
+
+// 2.
+// 將變數variables改為引用自己複製的helpers裡的那一份來做客製化
+@import "./helpers/variables";
+
+// 3.
+@import "~bootstrap/scss/mixins";
+
+// 4. 載入bs5 @代表src資料夾裡 ~代表node_modules裡 這邊使用波浪符號~載入bs樣式
+@import "~bootstrap";
+
+// 動畫效果animate css
+@import "~animate.css/animate.css";
+
+// 輪播Swiper import Swiper css
+@import "~swiper/swiper-bundle.css";
+
+// 全域標籤設定
+@import "./mysetting/base";
+// 個人設定scss
+@import "./mysetting/utilities"

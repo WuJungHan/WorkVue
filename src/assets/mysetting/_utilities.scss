@@ -1,0 +1,11 @@
+*,*:before,*:after{
+              box-sizing:border-box;
+}
+.h100vh{
+  height: 100vh;
+}
+.my-body-bg{
+  height: 100vh;
+  background: linear-gradient(to top, #abbaab, #ffffff);
+  background-attachment: fixed;
+}
